@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <title>Shop Bong Da</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+
+<body>
+    <div id="wrapper">
+            <button id="myBtn" title="Go to top">Back To Top</button>
+        <div id="header">
+            <div id="anh"> <a href="project.html">
+                    <img src="logo.png" width="200px" height="100px">
+                </a>
+            </div>
+            <div id="slogan">SPORT.VN: PHỤ KIỆN BÓNG ĐÁ CHẤT LƯỢNG CAO
+                <div id="login">
+                    <ul>
+                        <li><a href="DangNhap.html">Đăng Nhập</a></li>
+                        <li><a href="DangKy.html">Đăng Ký</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="main">
+        <div id="menu">
+            <ul>
+                <LI><a href="project.html">Trang Chủ</a></LI>
+                <li><a href="ao bong da.jpg">Áo Bóng Đá</a>
+                    <ul class="sub-menu">
+                        <li> <a href="aoclb.html">Áo Câu Lạc Bộ</a></li>
+                        <li> <a href="#">Áo ĐTQG</a></li>
+                        <li> <a href="#">Áo Mùa Giải Mới</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="bongda.html">Quả Bóng Đá</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Bóng Word Cup</a></li>
+                        <li><a href="#">Bóng La Liga</a></li>
+                        <li><a href="#">Bóng Primer League</a></li>
+                        <li><a href="#">Bóng Chapion League</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Giày Bóng Đá</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Giày Bóng adidas</a></li>
+                        <li><a href="#">Giày Bóng Puma</a></li>
+                        <li><a href="#">Giày Bóng Thượng Đỉnh</a></li>
+                        <li><a href="#">Giày Bóng Nike</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Phụ Kiện Khác</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Găng Thủ Môn</a></li>
+                        <li><a href="#">Tất Đá Bóng</a></li>
+                        <li><a href="#">Phụ Kiện Bảo Vệ</a></li>
+                        <li><a href="#">Túi Đựng Đồ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="sub-main">
+            <div id="ao">
+                <div class="box">
+                    <h1>ÁO BÓNG ĐÁ</h1>
+                    <br>
+                    <p>BỘ SƯU TẬP ÁO BÓNG ĐÁ CHẤT LƯỢNG CAO VỚI NHIỀU KIỂU ÁO MỚI NHẤT</p>
+
+                    <br>
+                    <a href="ao.html" class="lienket">ÁO BÓNG ĐÁ</a>
+
+                </div>
+            </div>
+            <div id="giay">
+                <img src="giay.jpg" style="width: 510px;height: 333px; position: absolute;margin: 50px;">
+                <div class="box2">
+                    <h1>GIÀY BÓNG ĐÁ</h1>
+                    <br>
+                    <p>NHỮNG ĐÔI GIÀY BÓNG ĐÁ CHẤT LƯỢNG SẼ MANG LẠI TỰ TIN CHO BẠN MỖI KHI RA SÂN BÓNG</p>
+                    <br>
+                    <a href="#" class="lienket">XEM GIÀY</a>
+                </div>
+            </div>
+            <div id="bong">
+                <div class="box2" style="margin-left: 50;margin-top: 150;">
+                    <h1>BÓNG ĐÁ</h1>
+                    <br>
+                    <p>NƠI CUNG CẤP BÓNG ĐÁ TỪ NHỮNG THƯƠNG HIỆU HÀNG ĐẦU</p>
+                    <br>
+                    <a href="bongda.html" class="lienket">XEM CHI TIẾT</a>
+                </div>
+                <img src="trai bong.jpg" style="width: 510;height: 333;position: absolute;margin-left: 750;margin-top: -250">
+
+            </div>
+            <div id="phukien">
+                <img src="gangtay.jpg" style="width: 510px;height: 333px; position: absolute;margin: 50px;">
+                <div class="box2">
+                    <h1>PHỤ KIỆN</h1>
+                    <br>
+                    <p>CUNG CẤP ĐẦY ĐỦ PHỤ KIỆN VỀ BÓNG ĐÁ</p>
+                    <br>
+                    <a href="#" class="lienket">XEM CHI TIẾT</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+    <div id="footer">
+            <p style="margin-top:50px;">SPORT.VN Design by Thao Quach @2019</p>
+    </div>
+    </div>
+    </body>
+    <script>
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+            document.getElementById('myBtn').addEventListener("click", function(){
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            });
+        </script>
+
+</html>

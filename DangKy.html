@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SPORT-Đăng ký</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="dangky.css">
+	<script type="text/javascript">
+	function getCheck(){
+		if(document.getElementById('username').value=""){
+			alert('Ban chua nhap ten dang nhap');
+			return;
+		}
+		if(document.getElementById('pass').value=""){
+			alert('Ban chua nhap mat khau');
+		}
+		if(document.getElementById('repass').value=""){
+			alert('Ban chua nhap lai mat khau');
+		}
+		if(document.getElementById('fullname').value=""){
+			alert('Ban chua nhap ho ten');
+		}
+		if(document.getElementById('Email').value=""){
+			alert('Ban chua nhap email');
+		}
+		if(document.getElementById('pass').value!=document.getElementById('repass').value){
+			alert('mat khau nhap lai sai');
+		}
+	}
+	</script>
+</head>
+<body>
+	<div>
+		<div id="header">
+			<h1>SPORT SHOP</h1>
+		</div>
+		<div id="form_dangky">
+			<h2>Đăng ký</h2>
+			<div id="form">
+				<form>
+					<table>
+						<tr>
+							<td><input type="text" name="username" id="username" placeholder="Tên đăng nhập" title="tên đăng nhập"></td>
+						</tr>
+						<tr>
+							<td><input type="password" name="pass" id="pass" placeholder="Mật khẩu"></td>
+						</tr>
+						<tr>
+							<td><input type="password" name="repass" id="repass" placeholder="Nhập lại mật khẩu"></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="fullname" id="fullname" placeholder="Họ và tên"></td>
+						</tr>
+						<tr>
+							<td>
+								<input style="width: 25px;" type="radio" name="gender" id="gender" value="1" checked>Nam
+								<input style="width: 25px;" type="radio" name="gender" id="gender" value="0">Nữ
+							</td>
+						</tr>
+						<tr>
+							<td><input type="date" name="birthday" id="birthday" placeholder="Ngày sinh"></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="job" id="job" placeholder="Nghề nghiệp"></td>
+						</tr>
+						<tr>
+							<td><input type="email" name="email" id="email" placeholder="Email"></td>
+						</tr>
+						<tr>
+							<td><input type="tel" name="phone" placeholder="Điện thoại" id="phone"></td>
+						</tr>
+						<tr>
+							<td><textarea rows="3" cols="43" name="note" id="note" placeholder="Ghi chú"></textarea></td>
+						</tr>
+						<tr>
+							<td><input type="button" value="Đăng ký" onclick="getCheck();"></td>
+						</tr>
+						<!-- <tr>
+							<td><p id="infor"></p>
+							</td>
+							
+						</tr> -->
+					</table>
+					<p class="infor-dangky" id="infor"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		
+	</div>
+	
+</body>
+</html>

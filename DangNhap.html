@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SPORT.VN ĐĂNG NHẬP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="dangnhap.css">
+	<script type="text/javascript">
+		function login() {
+		    userName = document.getElementById('username');
+		    passWord = document.getElementById('password');
+		    if (userName.value == 'hoangdh' && passWord.value == '123456') {
+		      alert('Đăng nhập thành công');
+		      return true;
+		    } if (userName.value == 'hoangdh' && passWord.value != '123456') {
+		      alert('Sai mật khẩu')
+		      return false;
+		    } else {
+		      alert('Không có user này!');
+		      return false;
+		    }
+		}
+		function alert1() {
+			var userName = document.getElementById('username');
+		    var passWord = document.getElementById('password');
+			var kq = "";
+			if (userName.value == 'hoangdh' && passWord.value != '123456') {
+				document.getElementById("infor").innerHTML = "<b> Đăng nhập thành công </b>";
+			} else {
+				document.getElementById("infor").innerHTML = "<b> Đăng nhập thất bại </b>";
+			}
+		}
+
+        
+	</script>
+</head>
+<body>
+	<div class="login-form">
+		<div class="login-title">
+			<h1>SPORT SHOP</h1>
+		</div>
+		<div class="login">
+			<h2 class="login-header">Đăng nhập</h2>
+			<div class="bg-form">
+				<!-- <p style="background-color: #ddd; width: 100%; height: 100px;" id="infor"></p> -->
+				<form class="login-container" method="post" onsubmit="return login()">
+					<input type="text" placeholder="Tên tài khoản" Name="username" id="username" required="" >
+                    <input type="password" placeholder="Mật khẩu" Name="password" id="password" required="">
+                    <input type="submit" value="Đăng nhập">
+				</form>
+				<p style="height: 10px;"></p>
+				<div>
+     				<div class="social-links">
+         				<ul>
+             				<li> <a class="facebook" href="https://www.facebook.com/" target="blank"><i>f</i></a></li>
+
+             				<li> <a class="twitter" href="https://twitter.com/" target="blank"><i>t</i></a></li>
+
+             				<li> <a class="googleplus" href="https://plus.google.com/" target="blank"><i>g+</i></a></li>
+       					</ul>
+   					</div>
+				</div>
+				<div class="bottom-text">
+      				<p>Chưa có tải khoản?<a href="DangKy.html">Đăng kí</a></p>
+      				<h4> <a href="#">Quên mật khẩu?</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

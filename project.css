@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*===body==*/
+body{
+    font-family:sans-serif ;
+    color: #333;
+}
+/*==menu==*/
+#menu ul{
+    list-style: none;
+    text-align: center;
+    background: #1f5688;
+
+}
+#menu ul li{
+    display: inline-table;
+    color:#f1f1f1;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+#menu ul li a{
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover{
+    background: #f1f1f1;
+    color: #333;
+}
+#menu ul li>.sub-menu{
+    display: none;
+    position: absolute;
+    opacity: 0.7;
+}
+#menu ul li:hover>.sub-menu{
+    display: block;
+
+}
+#menu{
+    width: 80%;
+    float: left;
+}
+/*---head--*/
+#header{
+    width: 100%;
+    height: 100px;
+}
+#anh{
+    width: 15%;
+    float: left;
+}
+#slogan{
+    width:85% ;
+    text-align: center;
+    color: white;
+    background: purple;
+    font-size: 30px;
+    float: left;;
+    height: 100px;
+    line-height: 100px;
+
+}
+#login{
+    float: right;
+    font-size: 20px;
+    width: 20%;
+    
+}
+#login ul li {
+    display: inline-table;
+}
+#login ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+table p{
+    text-align: center;
+}
+table img{
+margin: auto;
+}
+/*===sub-main==*/
+#ao{
+    width: 1349;
+    height: 473;
+    padding: 0;
+    margin-top: ;
+    background-image: url(ao\ bong\ da.jpg);
+    float: left;
+}
+.box{
+     width: 350px;
+     height: 200px;
+     text-align: center;
+     color: white;
+     font-weight: 700;
+     border: 2px solid black;
+     position: relative;
+     margin-top: 250px;
+     margin-left: 50;
+
+}
+#giay{
+    width: 1349;
+    height: 473;
+    background: #64f2ad;
+    float: left;
+
+}
+.box2{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border: 2px solid black;
+    position: relative;
+   margin-top:100 ;
+   margin-left:750; 
+
+}
+.lienket{       
+    background-color: none;
+    color:white;
+    border: 2px solid #73AD21;
+    border-radius:5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode";
+}
+.lienket:hover{
+    background-color: #73AD21;
+    color:white;
+}
+.lienket:active{
+    background-color: green;
+    border-color: green;
+}
+#bong{
+    width: 1349;
+    height: 473;
+    background: #C656EF;
+    float: left;
+    margin: 0;
+}
+#phukien{
+    width: 1349;
+    height: 473;
+    background: #44ECE1;
+    float: left;
+    margin: 0;
+}
+/*==back to top==*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
+   
+  #myBtn:hover {
+    background-color: #555;
+  }
+  #footer{
+      width: 100%;
+      background: #E26AFA;
+      color: white;
+      height: 150px;
+      float: left;
+      text-align: center;
+      font-size: 30px;
+
+  }
+ 

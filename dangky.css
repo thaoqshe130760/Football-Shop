@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background:url(banner1.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+
+input {
+	width: 300px;
+	height: 20px;
+	border: 1px solid #333;
+	font-size: 0.95em;
+	padding: 10px;
+}
+input:hover {
+	border-color: #28d;
+}
+input[type="text"]:focus {
+  border-color: #33b5e5;
+}
+
+
+input[type="button"] {
+  background: #33b5e5;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  background-color: #ef4d4d;
+  padding: 12px 20px;
+  border: none;
+  font-size:14px;
+  letter-spacing:1px;
+  outline:none;
+  transition: .5s ease-in;
+  -webkit-transition: .5s ease-in;
+  -ms-transition: .5s ease-in;
+  -o-transition: .5s ease-in;
+  -moz-transition:.5s ease-in;
+}
+
+
+input[type="button"]:hover {
+  background:#28d;
+}
+input[type="button"]:focus {
+  border-color: #05a;
+}
+
+#header {
+	width: 100%;
+	height: 155px;
+	text-align: center;
+}
+#header h1 {
+	color: hsl(0, 0%, 100%);
+	font-family: Montserrat, sans-serif;
+	font-size: 45px;
+	letter-spacing: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0 50px 0;
+	vertical-align: baseline;
+	font-weight: 400;
+}
+
+#form_dangky {
+	width: 100%;
+	height: 700px;
+	position: relative;
+
+}
+#form_dangky h2 {
+	width: 360px;
+	height: 68px;
+	line-height: 68px;
+	background-color: hsl(196, 77%, 55%);
+	color: #ffffff;
+	font-family: Montserrat, sans-serif;
+	font-size: 22.4px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 20px 0 20px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#form {
+	width: 400px;
+	height: 90%;
+	background-color: #ffffff;
+	position: absolute;
+	left: 50%;
+	top: 51.5%;
+	transform: translate(-50%, -50%);
+	padding-bottom: 30px; 
+
+}
+#form form table {
+	transform: translate(-50%, -50%);
+	left: 50%;
+	margin-top: 270px;
+	position: absolute;
+}
+
+.infor-dangky {
+	padding-top: 530px;
+	padding-left: 30px;
+	background-color: #fff;
+}
